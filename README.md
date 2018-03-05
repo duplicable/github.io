@@ -1,37 +1,67 @@
-## Welcome to GitHub Pages
+# Hugo.io - Classic Theme
 
-You can use the [editor on GitHub](https://github.com/duplicable/github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Classic is forked from the **XMin** theme, written by [Yihui Xie](https://yihui.name). I made a fresh remix of it for my [personal blog](https://goodroot.ca). It provides some simplifications, `highlight.js` for syntax highlighting, emoji support, and slick fonts.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Instructions
 
-### Markdown
+1: Install Hugo.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+brew install hugo
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+2: Create a new site.
 
-### Jekyll Themes
+```
+hugo new site classic
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/duplicable/github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+3: Change to themes dir.
 
-### Support or Contact
+```
+cd classic/themes
+```
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+4: Clone the repo
+
+```
+git clone git@github.com:goodroot/hugo-classic.git
+```
+
+5: Copy the contents of the `exampleSite` directory into {dir}/classic.
+
+6: Enjoy and customize to your hearts content!
+
+### New Posts
+
+To make new posts, simply use the command line:
+
+```
+hugo new post/good-to-great.md
+```
+
+### Header Colour
+
+To adjust the header colour, head to `static/css/style.css` and change...
+
+```
+header {
+    background: #613DC1;
+}
+```
+
+... `background:` to any colour value you'd like!
+
+For header font:
+
+```
+header a {
+    color: #fff;
+}
+```
+
+Change `color:` to a nice matching colour.
+
+#### Screenshot
+
+![Screenshot of Hugo Classic](https://github.com/goodroot/hugo-classic/raw/master/images/screenshot.png)
