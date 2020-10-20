@@ -1,7 +1,7 @@
 body {
-  font-family: 'Open Sans', serif;
+  font-family: 'Open Sans', arial;
   padding-top: 54px;
-  color: #868e96;
+  color: #34383c;
 }
 
 @media (min-width: 992px) {
@@ -17,8 +17,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Saira Extra Condensed', serif;
-  font-weight: 700;
+  font-family: 'Saira Extra Condensed', arial;
+  font-weight: normal;
   text-transform: uppercase;
   color: #343a40;
 }
@@ -131,17 +131,17 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color: #495057 !important;
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+  color: #054599 !important;
 }
 
 a {
-  color: #BD5D38;
+  color: #054599;
 }
 
 a:hover, a:focus, a:active {
-  color: #824027;
+  color: #054599;
 }
